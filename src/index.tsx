@@ -1,6 +1,11 @@
+//solid
 import { render } from 'solid-js/web';
+//components
+import App from './App';
+//styles
+import './index.css';
 
 render(
-    () => <h1>Hello User</h1>,
+    () => <App />,
     document.getElementById( 'root' ) as HTMLElement
 );
