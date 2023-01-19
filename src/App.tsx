@@ -1,4 +1,4 @@
-//solid
+//solidjs
 import { Component } from "solid-js";
 //icons
 import { CgProfile, CgMoreO } from "solid-icons/cg";
