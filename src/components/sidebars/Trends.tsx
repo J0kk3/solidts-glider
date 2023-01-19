@@ -1,5 +1,5 @@
 
-
+//dummy data
 const trends =
     [
         {
