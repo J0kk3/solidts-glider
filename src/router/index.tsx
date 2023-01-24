@@ -2,9 +2,9 @@
 import { lazy } from "solid-js";
 import { Route, Routes } from "@solidjs/router";
 //components
-import Home from "../pages/Home";
-const Login = lazy( () => import( "../pages/Login" ) );
-const Register = lazy( () => import( "../pages/Register" ) );
+import Home from "../views/Home";
+const Login = lazy( () => import( "../views/Login" ) );
+const Register = lazy( () => import( "../views/Register" ) );
 
 const AppRoutes = () =>
 {
